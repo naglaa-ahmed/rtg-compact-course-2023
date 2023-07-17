@@ -1,6 +1,6 @@
-# 2021 - KoMSO Academy
+# 2023 - RTG Compact course: Introduction to Deep Learning, PyTorch and TorchPhysics (A3)
 
-## Combining model- and data-based approaches for industrial problems, September 14-16, 2021
+## Combining model- and data-based approaches for industrial problems
 
 Here you will find the course exercises as well as the solutions.
 If you have any question or find any error please write me an email to otero@uni-bremen.de.
@@ -22,8 +22,6 @@ Select the GITHUB tab (1) and type `oterobaguer` (2). Then select the `rtg-compa
 ![](instructions.jpg)
 
 ## Local installation instructions
-
-We strongly recommend to use Google Colab, specially because the data will be stored in Google Drive, which can be accessed directly from Google Colab without having to download it. In case you want to use your local environment you will have to download the dataset (approx. 10Gb).
 
 ### 1) Create folder for the exercises
 
@@ -49,9 +47,9 @@ Confirm that you have successfully installed Miniconda by opening a console and 
 
 ### 3) Install required packages
 
-1. Open a console on the folder where you have the repo and create a virtual environment by running `conda create --name komso`.
+1. Open a console on the folder where you have the repo and create a virtual environment by running `conda create --name myenv`.
 
-2. Activate the environment with the command `conda activate komso`.
+2. Activate the environment with the command `conda activate myenv`.
 
 3. The list of required packages is contained in the file [requirements.txt](/requirements.txt). Install all of them by running the command `conda install --file requirements.txt`.
 
